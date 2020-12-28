@@ -1,0 +1,18 @@
+title: PWA With QCObjects
+description: >-
+  This is a quick start tutorial to create a PWA (Progressive Web App) using
+  QCObjects
+template:
+  repo: pwa-with-qcobjects-template
+  name: pwa-with-qcobjects
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
